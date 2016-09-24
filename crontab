@@ -3,4 +3,4 @@ HOME=/home/objelisks
 0,30 * * * * cd $HOME/code/everypunk/ && $NODE bot.js
 5,35 * * * * cd $HOME/code/lsystembot/ && $NODE bot.js
 10,40 * * * * cd $HOME/code/picobot/ && $NODE bot.js
-15,45 * * * * cd $HOME/code/wildflowersbot && $NODE bot.js
+15,45 * * * * cd $HOME/code/wildflowerbot && $NODE bot.js
