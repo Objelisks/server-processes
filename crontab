@@ -1,0 +1,4 @@
+0,30 * * * * cd ~/code/everypunk/ && node bot.js
+5,35 * * * * cd ~/code/lsystembot/ && node bot.js
+10,40 * * * * cd ~/code/picobot/ && node bot.js
+15,45 * * * * cd ~/code/wildflowersbot && node bot.js
