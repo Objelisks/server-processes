@@ -1,0 +1,41 @@
+{
+  "apps": [
+  {
+    "name": "everypunk",
+    "script": "bot.js",
+    "cwd": "~/code/everypunk/",
+    "instances": 1,
+    "exec_mode": "cluster_mode",
+    "cron_restart": "0,30 * * * *"
+  },
+  {
+    "name": "lsystembot",
+    "script": "bot.js",
+    "cwd": "~/code/lsystembot/",
+    "instances": 1,
+    "exec_mode": "cluster_mode",
+    "cron_restart": "5,35 * * * *"
+  },
+  {
+    "name": "pico8bot",
+    "script": "bot.js",
+    "cwd": "~/code/picobot/",
+    "instances": 1,
+    "exec_mode": "cluster_mode",
+    "cron_restart": "10,40 * * * *"
+  },
+  {
+    "name": "wildflower",
+    "script": "bot.js",
+    "cwd": "~/code/wildflowerbot/",
+    "instances": 1,
+    "exec_mode": "cluster_mode",
+    "cron_restart": "15,45 * * * *"
+  },
+  {
+    "name": "website",
+    "script": "app.js",
+    "cwd": "~/code/useless/machine/"
+  }
+  ]
+}
