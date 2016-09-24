@@ -1,4 +1,6 @@
-0,30 * * * * cd ~/code/everypunk/ && node bot.js
-5,35 * * * * cd ~/code/lsystembot/ && node bot.js
-10,40 * * * * cd ~/code/picobot/ && node bot.js
-15,45 * * * * cd ~/code/wildflowersbot && node bot.js
+NODE=/usr/local/bin/node
+HOME=/home/objelisks
+0,30 * * * * cd $HOME/code/everypunk/ && $NODE bot.js
+5,35 * * * * cd $HOME/code/lsystembot/ && $NODE bot.js
+10,40 * * * * cd $HOME/code/picobot/ && $NODE bot.js
+15,45 * * * * cd $HOME/code/wildflowersbot && $NODE bot.js
