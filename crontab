@@ -1,6 +1,6 @@
 NODE=/usr/local/bin/node
 HOME=/home/objelisks
-0,30 * * * * cd $HOME/code/everypunk/ && $NODE bot.js
-5,35 * * * * cd $HOME/code/lsystembot/ && $NODE bot.js
-10,40 * * * * cd $HOME/code/picobot/ && $NODE bot.js
-15,45 * * * * cd $HOME/code/wildflowerbot && $NODE bot.js
+0 * * * * cd $HOME/code/everypunk/ && $NODE --max-old-space-size=512 bot.js
+15 * * * * cd $HOME/code/lsystembot/ && $NODE --max-old-space-size=512 bot.js
+30 * * * * cd $HOME/code/picobot/ && $NODE --max-old-space-size=512 bot.js
+45 * * * * cd $HOME/code/wildflowerbot && $NODE --max-old-space-size=512 bot.js
